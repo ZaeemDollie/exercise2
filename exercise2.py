@@ -1,11 +1,16 @@
 # Question 1: Arithmetic and Assignment Operators
 
 # TODO: Add 3 to x using the += operator
-print("x+= 3")
+x = 3
+x += 3
+print(x)
 # TODO: Multiply y by 2 using the *= operator
-print("y*= 2")
+y = 5
+y *= 2
+print(y)
 
 # TODO: Divide x by y and store the result in a variable called 'result'
+result = x / y
 print("result = x / y")
 # TODO: Print the value of 'result'
 print("result =", result)
@@ -13,6 +18,10 @@ print("result =", result)
 # Question 2: Comparison and Logical Operators
 
 # TODO: Create a condition that checks if a is greater than b
+a = 10
+b = 5
+c = 7
+
 if a > b:
     print("a is greater than b")
 # TODO: Create a condition that checks if b is even (hint: use the modulus operator)
